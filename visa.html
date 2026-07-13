@@ -174,32 +174,32 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label>Full Name</label>
-                        <input type="text" required>
+                        <input type="text" required id="full-name">
                     </div>
 
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" required>
+                        <input type="email" id="email">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label>Phone Number</label>
-                        <input type="tel" required>
+                        <input type="tel"  id="phone-number">
                     </div>
 
                     <div class="form-group">
                         <label>Country of Interest</label>
-                        <select required>
+                        <select id="country">
                             <option value="">Select Country</option>
-                            <option>Canada</option>
-                            <option>United Kingdom</option>
-                            <option>United States</option>
-                            <option>Germany</option>
-                            <option>France</option>
-                            <option>Portugal</option>
-                            <option>Germany</option>
+                            <option value="Canada">Canada</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Germany">Germany</option>
                         </select>
                     </div>
                 </div>
@@ -207,47 +207,47 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label>Visa Type</label>
-                        <select required>
+                        <select id="visa-type">
                             <option value="">Select Visa Type</option>
-                            <option>Study Visa</option>
-                            <option>Work Visa</option>
-                            <option>Visit Visa</option>
-                            <option>Permanent Residence</option>
+                            <option value="Study Visa">Study Visa</option>
+                            <option value="Work Visa">Work Visa</option>
+                            <option value="Visit Visa">Visit Visa</option>
+                            <option value="Permanent Residence">Permanent Residence</option>
                         </select>
                     </div>
 
                     <!-- ✅ Intended Travel Date -->
                     <div class="form-group">
                         <label>Intended Travel Date</label>
-                        <input type="date" required>
+                        <input type="date" id="date">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label>Highest Qualification</label>
-                        <select required>
+                        <select id="Qualification">
                             <option value="">Select Qualification</option>
-                            <option>SSCE</option>
-                            <option>Diploma</option>
-                            <option>Bachelor Degree</option>
-                            <option>Masters Degree</option>
+                            <option value="SSCE">SSCE</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Bachelor Degree">Bachelor Degree</option>
+                            <option value="Masters Degree">Masters Degree</option>
                         </select>
                     </div>
 
                     <div class="form-group">
                         <label>Passport Status</label>
-                        <select required>
+                        <select id="Passport-Status">
                             <option value="">Select</option>
-                            <option>Have Valid Passport</option>
-                            <option>No Passport</option>
+                            <option value="Have Valid Passport">Have Valid Passport</option>
+                            <option value="No Passport">No Passport</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label>Travel History</label>
-                    <textarea placeholder="List countries you’ve visited"></textarea>
+                    <textarea placeholder="List countries you’ve visited" id="Travel History"></textarea>
                 </div>
 
                 <button type="submit" class="BTNProfile">Submit Profile </button>
@@ -368,10 +368,8 @@
 </section>
 
 
-    <a href="https://wa.me/2348134895489" target="_blank">
-
-        <img class="whatsapp" src="utils/images/whatsapp-removebg-preview.png" alt="" width="70">
-
+     <a href="https://wa.me/2348134895489" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
 
     <!-- /* .............footer............... */ -->
