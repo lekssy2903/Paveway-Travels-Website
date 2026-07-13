@@ -2129,9 +2129,17 @@ details p{
             flex-direction: column-reverse;
     }
 
+    header{
+        justify-content: space-between;
+        padding: 5px ;
+        padding-left: 8px;
+    }
+
 /* NAVBAR */
 .navbar{
     position: relative;
+    /* justify-content: space-between;
+    padding: 0px; */
 }
 
 /* HIDE NORMAL MENU */
