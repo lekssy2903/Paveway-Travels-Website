@@ -313,7 +313,7 @@
 ==============================*/
 
 .process-section{
-    padding:100px 8%;
+    padding:50px 8%;
     background:#F8FAFC;
 }
 
@@ -425,10 +425,17 @@
 /* Mobile */
 
 @media(max-width:900px){
+    section{
+        overflow: hidden;
+    }
     .sub-text{
         padding: 10px;
     }
 
+
+    .sub-text h1{
+        max-width: 100%;
+    }
 .process-grid{
 
     grid-template-columns:1fr;
