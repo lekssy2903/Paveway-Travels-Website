@@ -778,12 +778,12 @@ font-size:14px;
 /* ............. MOBILE RESPONSIVENESS FOR FOOTER ............. */
 @media (max-width: 768px){
 
-    section{
+    /* section{
         display: flex;
         justify-content: center;
         align-content: center;
         flex-direction: column;
-    }
+    } */
 
     .footer{
         padding:40px 20px;

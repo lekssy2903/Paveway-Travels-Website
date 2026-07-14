@@ -1,3 +1,5 @@
+
+
 .success-header {
     width: 100%;
     height: 500px;
@@ -256,69 +258,6 @@
 }
 
 
-/* ===== Swiper Container ===== */
-
-.admissionSwiper{
-
-    margin-top:60px;
-
-    padding-bottom:60px;
-
-}
-
-/* keep slide padding */
-
-.admissionSwiper .swiper-slide{
-
-    padding:5px;
-
-}
-
-/* pagination */
-
-.admissionSwiper .swiper-pagination-bullet{
-
-    width:12px;
-
-    height:12px;
-
-    opacity:1;
-
-    background:#ddd;
-
-}
-
-.admissionSwiper .swiper-pagination-bullet-active{
-
-    background:#D89B2D;
-
-}
-
-/* arrows (if you enable them later) */
-
-.admissionSwiper .swiper-button-next,
-
-.admissionSwiper .swiper-button-prev{
-
-    color:#0B0B3B;
-
-}
-
-
-.admission-image img{
-
-    width:100%;
-
-    height:500px;
-
-    object-fit:cover;
-
-    object-position:top;
-
-    border-radius:12px;
-
-}
-
 @media(max-width:900px){
 
 .admission-card{
@@ -480,6 +419,9 @@ padding:30px;
 
 @media (max-width:900px) {
 
+    .success-stats{
+        flex-direction: column;
+    }
     .client-testimonie{
         flex-wrap: wrap;
     }
