@@ -419,6 +419,12 @@ padding:30px;
 
 @media (max-width:900px) {
 
+   
+    section{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .success-stats{
         flex-direction: column;
     }
