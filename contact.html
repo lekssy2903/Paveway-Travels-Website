@@ -79,22 +79,26 @@
         <div class="contact-right">
             <h3>SEND A <span style="color: #D89B2D;">MESSAGE</span></h3>
 
-            <form>
-                <input type="text" placeholder="Name" class="inputcontact">
+            <form id="contact_form">
+                <input type="text" placeholder="Name" id="name" class="inputcontact">
 
                 <div class="form-rowcontact">
-                    <input type="email" placeholder="Email" class="inputcontact">
-                    <input type="text" placeholder="Phone" class="inputcontact">
+                    <input type="email" placeholder="Email" id="email" class="inputcontact">
+                    <input type="text" inputmode="numeric" placeholder="Phone" class="inputcontact" id="phone_number">
                 </div>
 
                 <div class="form-rowcontact">
-                    <input type="text" placeholder="Destination" class="inputcontact">
-                    <input type="text" placeholder="Travel Dates" class="inputcontact">
+                    <input type="text" placeholder="Destination" id="destination" class="inputcontact">
+                    <input type="text" placeholder="Travel Dates" id="travel_date" class="inputcontact">
                 </div>
 
-                <textarea placeholder="Message" class="textarea-contact"></textarea>
+                <textarea placeholder="Message" class="textarea-contact" id="message"></textarea>
 
-                <button type="submit" class="BTN-Submit">Send</button>
+                <button type="submit" class="BTN-Submit">Send
+                    <div id="LoadeR">
+                        <span></span>
+                    </div>
+                </button>
             </form>
         </div>
 
