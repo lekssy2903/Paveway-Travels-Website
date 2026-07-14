@@ -425,6 +425,9 @@
 /* Mobile */
 
 @media(max-width:900px){
+    .sub-text{
+        padding: 10px;
+    }
 
 .process-grid{
 
