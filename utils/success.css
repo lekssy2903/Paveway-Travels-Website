@@ -425,6 +425,10 @@ padding:30px;
     .client-testimonie{
         flex-wrap: wrap;
     }
+
+    h2{
+        font-size: 2rem;
+    }
     .innerTotal {
         margin-top: 12px;
 
