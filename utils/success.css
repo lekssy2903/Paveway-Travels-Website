@@ -52,10 +52,15 @@
 
 
 .success-intro{
-    max-width: 750px;
-    margin: 90px auto 60px;
+   
+    /* margin: 90px auto 60px; */
     text-align: center;
     padding: 0 20px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-tag{
@@ -87,7 +92,7 @@
     justify-content:center;
     gap:60px;
     flex-wrap:wrap;
-    margin-top:45px;
+    margin-top:55px;
 }
 
 .success-stats div{
@@ -108,7 +113,7 @@
 
 
 .admission-proof{
-
+    margin-top: 120px;
     padding:90px 8%;
 
 }
@@ -280,7 +285,7 @@ padding:30px;
     align-items: center;
     gap: 30px;
     padding: 50px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .client {

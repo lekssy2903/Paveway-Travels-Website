@@ -907,7 +907,7 @@ font-size:14px;
     display: flex;
     justify-content: center;
     padding: 0px 10px;
-    margin-top: 80px;
+    margin-top: 150px;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -974,7 +974,7 @@ font-size:14px;
 .WhyUS{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 150px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -1044,7 +1044,7 @@ font-size:14px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 30px;
 
     
@@ -1105,6 +1105,7 @@ font-size:14px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 120px
 }
 
 .team-header h1{
@@ -1314,7 +1315,7 @@ font-size:14px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
     padding: 20px;
 
@@ -1413,12 +1414,14 @@ font-size:14px;
 }
 .visa-section {
   padding: 30px 20px;
+  margin-top: 80px;
 }
 
 
 .assessment-info{
     padding:90px 0;
     text-align:center;
+    margin-top: 150px;
 }
 
 .assessment-info .section-tag{
@@ -1568,6 +1571,7 @@ textarea {
 
     padding:100px 8%;
     background:#f8f9fc;
+    margin-top: 100px;
 
 }
 
@@ -1606,6 +1610,7 @@ textarea {
 
 details{
 
+   
     background:#fff;
     border-radius:12px;
     padding:22px 28px;
@@ -1637,6 +1642,7 @@ details p{
 .visa-contact{
 
     padding:100px 8%;
+    margin-top: 90px;
 
 }
 
