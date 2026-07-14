@@ -202,7 +202,7 @@ border-radius:20px;
     flex-wrap: wrap;
 }
 
-.image-div{
+.about-Section .image-div{
     background-image: url('images/sasa.jpg');
     width: 100%;
     max-width: 600px;
@@ -211,7 +211,7 @@ border-radius:20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-   
+   background-color: #ffffff7e;
     display: flex;
     justify-content: center;
     align-items: center;
