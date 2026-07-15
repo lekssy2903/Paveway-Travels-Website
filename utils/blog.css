@@ -742,6 +742,7 @@ li i{
 
 @media(max-width:768px){
 
+
     section{
         overflow: hidden;
     }
@@ -799,6 +800,7 @@ font-size:1rem;
         align-items: end;
     }
     .innerHero{
+        max-width: 100%;
         background-color: rgba(255, 255, 255, 0.877);
     }
     
