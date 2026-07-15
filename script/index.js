@@ -109,26 +109,26 @@ navlink.addEventListener("mouseleave", () => {
 
 /* .............visa form filling ............... */
 
-const form = document.getElementById("visaForm");
+// const form = document.getElementById("visaForm");
 
-// Prevent past dates
-const dateInput = document.querySelector('input[type="date"]');
-const today = new Date().toISOString().split("T")[0];
-if (dateInput) {
-    dateInput.setAttribute("min", today);
-}
+// // Prevent past dates
+// const dateInput = document.querySelector('input[type="date"]');
+// const today = new Date().toISOString().split("T")[0];
+// if (dateInput) {
+//     dateInput.setAttribute("min", today);
+// }
 
-if (form) {
+// if (form) {
 
-    form.addEventListener("submit", function (e) {
-        e.preventDefault();
+//     form.addEventListener("submit", function (e) {
+//         e.preventDefault();
 
-        alert("✅ Your visa profile has been submitted!");
+//         alert("✅ Your visa profile has been submitted!");
 
-        form.reset();
-    });
+//         form.reset();
+//     });
 
-}
+// }
 
 
 
