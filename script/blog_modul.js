@@ -124,6 +124,7 @@ document.querySelectorAll(".readMoreBtn").forEach(button => {
 });
 
 
+if(closeBtn)
 closeBtn.addEventListener("click", () => {
 
     modal.classList.remove("active");
@@ -132,6 +133,7 @@ closeBtn.addEventListener("click", () => {
 
 });
 
+if(modal)
 modal.addEventListener("click", (e) => {
 
     if (e.target === modal) {
@@ -145,6 +147,7 @@ modal.addEventListener("click", (e) => {
 });
 
 
+if(modal)
 document.addEventListener("keydown", (e) => {
 
     if (e.key === "Escape") {
