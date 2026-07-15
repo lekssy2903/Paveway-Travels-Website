@@ -1,0 +1,385 @@
+/*==========================
+        FAQ
+===========================*/
+
+.faq-section{
+    padding:100px 8%;
+    background:#fff;
+}
+
+.faq-container{
+    max-width:900px;
+    margin:60px auto 0;
+}
+
+.faq-item{
+    border:1px solid #e8e8e8;
+    border-radius:14px;
+    margin-bottom:20px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.faq-item:hover{
+    border-color:#D89B2D;
+}
+
+.faq-question{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px;
+    cursor:pointer;
+}
+
+.faq-question h3{
+    color:#0B0B3B;
+    font-size:1.1rem;
+}
+
+.faq-question i{
+    color:#D89B2D;
+    font-size:1.1rem;
+}
+
+.faq-answer{
+    max-height:0;
+    overflow:hidden;
+    transition:.4s ease;
+}
+
+.faq-answer p{
+    padding:0 25px 25px;
+    color:#666;
+    line-height:1.8;
+}
+
+.faq-item.active .faq-answer{
+    max-height:250px;
+}
+
+
+
+.Section-title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Section-title small{
+    color: #D89B2D;
+    font-weight: 600;
+}
+
+.Section-title h2{
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: #0B0B3B;
+}
+
+.Section-title p{
+    color: #666;
+    max-width: 600px;
+}
+/*==========================
+        CTA
+===========================*/
+
+.home-cta{
+
+    padding:100px 8%;
+
+}
+
+.cta-content{
+
+    background:#0B0B3B;
+
+    border-radius:24px;
+
+    padding:80px 40px;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.cta-content small{
+
+    color:#D89B2D;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+}
+
+.cta-content h2{
+
+    margin:20px 0;
+
+    font-size:clamp(2.2rem,5vw,3.5rem);
+
+}
+
+.cta-content span{
+
+    color:#D89B2D;
+
+}
+
+.cta-content p{
+
+    max-width:700px;
+
+    margin:0 auto 40px;
+
+    line-height:1.9;
+
+    color:#e7e7e7;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.primary-btn{
+
+    background:#D89B2D;
+
+    color:white;
+
+    border:none;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.secondary-btn{
+
+    background:transparent;
+
+    color:white;
+
+    border:2px solid white;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.secondary-btn:hover{
+
+    background:white;
+
+    color:#0B0B3B;
+
+}
+
+.secondary-btn i{
+
+    margin-right:8px;
+
+}
+
+
+/*==================================
+        DESTINATION STRIP
+==================================*/
+
+.destination-strip{
+
+    padding:100px 20px;
+    background:#F9FAFC;
+
+}
+
+.destination-strip .SEction-title{
+
+    text-align:center;
+    margin-bottom:60px;
+    padding:0 20px;
+
+}
+
+.destination-strip .SEction-title small{
+
+    color:#D89B2D;
+    letter-spacing:3px;
+    font-weight:700;
+
+}
+
+.destination-strip .SEction-title h2{
+
+    color:#0B0B3B;
+    margin:15px 0;
+
+}
+
+.destination-strip .SEction-title p{
+
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    color:#666;
+
+}
+
+.marquee{
+
+    overflow:hidden;
+    width:100%;
+
+}
+
+.marquee-content{
+
+    display:flex;
+    gap:25px;
+    width:max-content;
+
+    animation:scrollCountries 35s linear infinite;
+
+}
+
+.country-card{
+
+    min-width:170px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s ease;
+
+}
+
+.country-card:hover{
+
+    transform:translateY(-8px);
+
+    border:1px solid #D89B2D;
+
+}
+
+.country-card span{
+
+    font-size:3rem;
+
+    display:block;
+
+    margin-bottom:15px;
+
+}
+
+.country-card h4{
+
+    color:#0B0B3B;
+    font-size:1rem;
+
+}
+
+.marquee:hover .marquee-content{
+
+    animation-play-state:paused;
+
+}
+
+@keyframes scrollCountries{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.country-card{
+
+    min-width:140px;
+    padding:20px;
+
+}
+
+.country-card span{
+
+    font-size:2.5rem;
+
+}
+
+}
+
+
+
+/*==========================
+        MOBILE
+===========================*/
+
+@media(max-width:768px){
+
+    .faq-section,
+    .home-cta{
+
+        padding:80px 20px;
+
+    }
+
+    .cta-content{
+
+        padding:50px 25px;
+
+    }
+
+}
