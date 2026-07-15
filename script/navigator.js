@@ -7,3 +7,29 @@ export const navigator = () =>{
         })
     })
 }
+
+
+export const blog_faq = () =>{
+    const faqs = document.querySelectorAll(".faq-item");
+
+    if(faqs)
+faqs.forEach(item => {
+
+    const question = item.querySelector(".faq-question");
+
+    question.addEventListener("click", () => {
+
+        faqs.forEach(faq => {
+
+            if (faq !== item) {
+                faq.classList.remove("active");
+            }
+
+        });
+
+        item.classList.toggle("active");
+
+    });
+
+});
+}

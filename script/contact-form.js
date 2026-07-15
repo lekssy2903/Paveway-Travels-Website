@@ -9,7 +9,7 @@ export const contactForm = () =>{
     const submitBTN = document.querySelector('BTN-Submit');
     const loader = document.getElementById('LoadeR');
 
-
+if(contact_form)
     contact_form.addEventListener('submit',async (e) =>{
         e.preventDefault();
 
