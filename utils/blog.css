@@ -500,7 +500,9 @@
     flex-direction: column;
     color:#4B5563;
     font-weight: 600;
+    align-items: start;
 }
+
 
 li i{
     color:#D89B2D;
@@ -523,7 +525,6 @@ li i{
     min-height:550px;
     object-fit:cover;
     max-width: 500px;
-    background-color: red;
 }
 
 
@@ -752,11 +753,14 @@ li i{
     margin-right:5px;
 }
 
+ul{
+    width: 100%;
+}
     .tipText{
         padding: 10px;
     }
     .tipsCard{
-        margin-left: 10px;
+        margin-left: 5px;
     }
 .tipText h2{
     font-size: 1.8rem;
