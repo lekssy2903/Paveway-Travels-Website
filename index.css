@@ -2228,6 +2228,9 @@ input,textarea{
 /* ...........Responsive........... */
 @media(max-width:900px){
 
+    select{
+        min-height: 40px;
+    }
     section{
         overflow-x: hidden;
     }
