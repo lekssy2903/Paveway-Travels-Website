@@ -277,6 +277,8 @@
     background-color: white;
     padding: 20px;
     transition: .3s ease;
+    max-width: 400px;
+    min-height: 600px;
 }
 
 
@@ -287,7 +289,6 @@
 
 .client-image {
     width: 100%;
-
     background-image: url('/utils/images/samuel.jpeg');
     background-position: center;
     background-size: cover;
@@ -297,6 +298,15 @@
     object-fit: cover;
 }
 
+.client-image.sec{
+    background-image: url('addmition-letter/denmark passport.jpeg');
+}
+
+.client-image.thr{
+    background-image: url('addmition-letter/passport7.jpeg');
+
+}
+/* addmition-letter/passport7.jpeg */
 .client strong {
     color: #0b0b3b;
     font-size: clamp(1.2rem, 4vw, 1.8rem);
