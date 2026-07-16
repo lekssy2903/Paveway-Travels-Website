@@ -548,6 +548,9 @@ border-radius:20px;
     padding:0px 8px;
 }
 
+.card.index{
+    padding: 20px;
+}
 
 .card{
 
@@ -560,8 +563,9 @@ border-radius:20px;
 
     overflow:hidden;
 
+    height: auto;
     scroll-snap-align:start;
-
+    
     transition:.3s;
 }
 

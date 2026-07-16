@@ -346,23 +346,65 @@
 }
 
 .visa-gallery{
-    padding:100px 8%;
+    padding: 20px;
     margin-top: 80px;
+    position: relative;
 }
 
 .visa-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:30px;
-    margin-top:60px;
+     display:flex;
+    gap:35px;
+    padding: 20px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    scroll-snap-type:x mandatory;
+
+    scrollbar-width:none;
+}
+
+.visa-grid::-webkit-scrollbar{
+    display:none;
 }
 
 .visa-card{
+    min-width: 300px;
     background:#fff;
     border-radius:18px;
-    overflow:hidden;
     box-shadow:0 15px 35px rgba(0,0,0,.08);
-    transition:.35s;
+    transition:.3s;
+     scroll-snap-align:start;
+      overflow:hidden;
+    
+}
+
+
+.preV,
+.nexT{
+
+    position:absolute;
+    top:55%;
+    transform:translateY(-50%);
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#0b0b3b;
+    color:white;
+    font-size:22px;
+
+    cursor:pointer;
+
+    z-index:10;
+}
+
+.preV{
+
+    left:30px;
+}
+
+.nexT{
+
+    right:30px;
 }
 
 .visa-card:hover{
@@ -386,7 +428,7 @@
 
 
 
-
+/* ========video section ========= */
 
 
 .video-section{
@@ -624,6 +666,11 @@
 
 
 @media(max-width:900px){
+
+    .preV,
+    .nexT{
+        display: none;
+    }
 
 .admission-card{
 
