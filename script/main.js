@@ -1,5 +1,5 @@
 import {count,mobileNav} from "./index.js";
-import {Carousel} from "./carrousel.js"
+import {Carousel, successCarouse} from "./carrousel.js"
 import {navigator, blog_faq} from "./navigator.js";
 import {contactForm} from "./contact-form.js";
 // import {sample} from "./sample.js";
@@ -15,5 +15,5 @@ navigator();
 blog_content();
 blog_faq()
 visa_form();
-
+successCarouse();
 // sample();

@@ -19,4 +19,32 @@ document.querySelector(".prev").onclick = () => {
     });
 
 };
+
+
+
+
+}
+
+export const successCarouse = () =>{
+    const visaGrid = document.querySelector(".visa-grid");
+const nextBtn = document.querySelector(".nexT");
+const prevBtn = document.querySelector(".preV");
+
+if(!nextBtn)return
+nextBtn.addEventListener("click", () => {
+   
+    visaGrid.scrollBy({
+        left: 350,
+        behavior: "smooth"
+    });
+});
+
+if(!prevBtn)return
+prevBtn.addEventListener("click", () => {
+    
+    visaGrid.scrollBy({
+        left: -350,
+        behavior: "smooth"
+    });
+});
 }
